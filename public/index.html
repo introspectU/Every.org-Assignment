@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giving Teams Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Giving Teams Leaderboard</h1>
+        <nav>
+            <button id="createTeamBtn">Create Team</button>
+            <button id="viewLeaderboardBtn">View Leaderboard</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="createTeamSection" class="hidden">
+            <h2>Create a New Team</h2>
+            <form id="createTeamForm">
+                <div class="form-group">
+                    <label for="teamName">Team Name</label>
+                    <input type="text" id="teamName" required>
+                </div>
+                <div class="form-group">
+                    <label for="teamDescription">Description (optional)</label>
+                    <textarea id="teamDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="charitySearch">Search for Charity</label>
+                    <input type="text" id="charitySearch" placeholder="Search charities...">
+                    <div id="charityResults" class="hidden"></div>
+                </div>
+                <button type="submit">Create Team</button>
+            </form>
+        </section>
+
+        <section id="leaderboardSection">
+            <h2>Leaderboard</h2>
+            <div id="leaderboard"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html> 

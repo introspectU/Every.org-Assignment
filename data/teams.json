@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1745007663910",
+    "name": "Team A",
+    "description": "Loves the red cross",
+    "charityId": "530196605",
+    "createdAt": "2025-04-18T20:21:03.910Z"
+  },
+  {
+    "id": "1745007710066",
+    "name": "Team B",
+    "description": "Team Democlean Salvation Inc",
+    "charityId": "852216933",
+    "createdAt": "2025-04-18T20:21:50.066Z"
+  },
+  {
+    "id": "1745008472927",
+    "name": "Team C",
+    "description": "",
+    "charityId": "273941186",
+    "createdAt": "2025-04-18T20:34:32.927Z"
+  }
+]
